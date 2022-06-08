@@ -29,6 +29,15 @@ public class NestedLoopIntro {
 			}
 		}
 		
+		System.out.println("-----------------");
+		
+		for(int i=1; i>3; i--) { //false
+			System.out.println("Hello");
+			for(int y=1; y<=2; y++) { //outer loop is false, so nothing executes
+				System.out.println("Bye");
+			}
+		}
+		
 	}
 
 }

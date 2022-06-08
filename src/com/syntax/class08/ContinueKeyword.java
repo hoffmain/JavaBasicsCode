@@ -28,7 +28,7 @@ public class ContinueKeyword {
 				continue;
 			}
 			
-			System.out.print(i);
+			System.out.print(i+" ");
 		}
 		
 		

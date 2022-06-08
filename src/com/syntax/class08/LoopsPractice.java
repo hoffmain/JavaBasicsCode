@@ -9,16 +9,22 @@ public class LoopsPractice {
 		int sum=0;
 		
 		for(int i=1; i<6; i++) {
-			sum+=1;
+			sum+=1; //0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15
 		}
-		System.out.println(sum); //1 3 6 10 15
+		System.out.println(sum); //15
 		
 		
 		System.out.println("---------------");
 		
+		for(int i=1; i<6; i++) {
+			sum+=1;
+			System.out.print(sum+" "); //1 3 6 10 15
+		}
+		
+		System.out.println("---------------");
 		
 		for(int i=1; i<6; i++) {
-			System.out.println(sum); //0 1 3 6 10
+			System.out.print(sum+" "); //0 1 3 6 10
 			sum+=1;
 		}
 		

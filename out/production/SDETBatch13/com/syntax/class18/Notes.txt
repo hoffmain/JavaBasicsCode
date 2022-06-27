@@ -1,0 +1,53 @@
+Constructors in Java:
+
+What is a Constructor in Java?
+    A Constructor is a special block of code that helps us give initial values to the fields of a class.
+    Initialization of object or instance.
+Why we should use a Constructor
+    ex: Scanner input=new Scanner(System.in);
+    ex2: Class main=new Class();
+    1) When we use the constructor to initialize the object it looks more readable and cleaner.
+    2) If the fields of a class are private it's nor possible to access them outside a class without
+    a constructor or a method which means we can't initialize them without a method or a constructor.
+    3) We can enforce rules like what kind of values are assigned to variables with the help of a
+    constructor.
+    4) If we want to make sure that some lines of code should always be executed when the object of a
+    class is created. We can put the code inside the constructor.
+How to use Constructors
+    We create constructors inside the class and when an object of that class is created, the constructor
+    is executed automatically.
+
+class Car{
+    String make;
+    String model;
+
+    Car(String carMake,String carModel,){
+        make=carMake;
+        model=carModel;
+    }
+    public static void main(String[] args){
+    Car bmw=new Car("BMW",""S2"); //classes are custom data types
+
+    }
+}
+
+Rules:
+    1) Constructors don't have return types not even void.
+    2) The name of the constructor should always be same as name of the class.
+    3) Constructors can't be created with a static keyword.
+    4) We can use any access modifiers with Constructor.
+    5) If we don't create a constructor in a class a default constructor with zero parameters is created by
+    compiler(Takes the code written by us. it converts that code to byte code which is easier for Java
+    to understand).
+    7) It is not allowed to have two constructors in a class with same number of parameters and same type
+
+this keyword:
+    We can use the "this" keyword to access the instance variables when you have the same name variables in
+    your method or constructor or any block of code
+
+this(): Not that common
+    Calls the constructors of a class inside other constructors.
+    Why we should use it: helps us reuse already written constructors if they contain same code.
+    Why we want to create multiple constructors in the first place: we want to give user flexibility that
+    we can create the objects of our class in many ways.
+

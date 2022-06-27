@@ -24,9 +24,16 @@ Rules:
     3) We can also create arrays of type parent and they can hold the objects of child classes
 ==================================================
 What is Abstraction:
-
-
-
-
+    Abstraction is providing only the necessary details and hiding all the implementation details.
+Why should we learn Abstraction:
+    1) it reduces the complexity by separating the idea from implementation.
+    2) it helps us enforce rules and convey our requirements.
+How can we use Abstraction:
+    1) create classes with abstract keyword
+    2) use the abstract keyword with method inside the parent class.
+    3) Create the child classes and extend those classes from the parent class and implement the abstract
+    methods
+    4) if we don't want to provide the implementation of one or more methods we can declare the child class
+    as abstract as well
 
 

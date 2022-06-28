@@ -1,5 +1,4 @@
-package com.syntax.class24.Notes;
-import javax.xml.crypto.Data;
+package com.syntax.class24;
 
 public abstract class Database {
 

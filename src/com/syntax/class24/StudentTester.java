@@ -1,4 +1,4 @@
-package com.syntax.class24.Notes;
+package com.syntax.class24;
 
 public class StudentTester {
     public static void main(String[] args) {

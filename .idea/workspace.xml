@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dbaafb6-7466-4d79-be2b-e3352614fc4f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/com/syntax/class14/Hmwk.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/syntax/class14/Hmwk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class14/Hmwk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class14/Hmwk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review03/ArraysDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review03/ArraysDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review03/BreakDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review03/BreakManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review03/ContinueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review03/ContinueDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review03/NestedLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review04/College.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review04/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Review04/Student.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,17 +22,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2AR1tOr1UIlB8qfDqJ6FlEFnoxx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

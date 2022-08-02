@@ -1,0 +1,44 @@
+What is an Interface:
+    Interface is a contract that is similar to a class but all the fields inside a class are public
+    static final, also known as constants, and all the methods by default are also public.
+
+    interface <interface_name>{
+
+        // declare constant fields
+        // declare methods that abstract
+        // by default.
+    }
+
+Why we should learn about Interface:
+    We can implement abstraction using interfaces. Interfaces are more specific about contracts. When
+    classes are logically connected to each other and we want to have instance fields and implemented
+    methods as well while doing abstractions then we should go with abstract class
+
+How can I use an Interface to bind classes to a common contract or to implement abstraction?
+    We use interface keyword instead of a class and we can start creating abstract methods
+
+Rules:
+    1) All the fields inside an interface are public static and final.
+    2) No instance fields means no constructor is required.
+    3) No instance methods in an interface and all the methods by default are abstract/public.
+    4) When we implement the methods from the interface we use implements keyword.
+    5) Multiple inheritance is supported by interfaces in Java.
+    6) An interface can extend another interface.
+    7) Variables in interfaces can't be private, protected, or default
+
+===============================================
+What is Encapsulation in Java:
+    Is the 4th pillar of OOPs. It is a mechanism that provides us security. If we use encapsulation we
+    can have more security.
+How we should use Encapsulation:
+    1) make your variables as private
+    2) Create setter and getter methods to read and write these fields
+
+
+
+
+
+
+
+
+
